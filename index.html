@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C1 Open dag-website</title>
+  <link rel="stylesheet" href="./styles/globals.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="bg-white">
+    <header class="absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">C1 Open dag-website</span>
+            <img class="h-8 w-auto" src="./assets/images/logo-extra-small.png" alt="Curio Software Developers">
+          </a>
+        </div>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+            <a href="#rooster" class="text-sm font-semibold leading-6 text-gray-900">Vakken / Rooster</a>
+            <a href="#docenten" class="text-sm font-semibold leading-6 text-gray-900">Docenten</a>
+            <a href="#traject" class="text-sm font-semibold leading-6 text-gray-900">School Traject</a>
+          </div>
+          <div class="hidden lg:flex lg:items-center lg:space-x-6">
+            <a href="https://www.curio.nl/mbo/opleidingen/softwaredeveloper/software-developer/"
+              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Meld
+              je nu aan</a>
+          </div>
+        </nav>
+    </header>
+
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        aria-hidden="true">
+
+        <!-- achtergrond gradient  -->
+        <div
+          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+        <!-- achtergrond gradient  -->
+
+      </div>
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Curio Software Developers
+          </h1>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Op deze website vind je informatie over de opleiding Software
+            developer op het Curio in Breda. Deze website is gemaakt door een (begin) 2de jaars student uit het
+            versnellings traject. Wanneer je voor deze opleiding kiest kan je dit soort websites kan gaan maken.</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="https://www.curio.nl/mbo/opleidingen/softwaredeveloper/software-developer/"
+              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Meld
+              je nu aan</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- alleen de header op het scherm -->
+      <div
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true">
+        <!-- achtergrond gradient  -->
+        <div
+          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+        </div>
+        <!-- achtergrond gradient  -->
+      </div>
+      <!-- alleen de header op het scherm -->
+
+    </div>
+  </div>
+
+  <!-- Vakken en rooster -->
+  <div id="rooster" class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div
+        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 ">
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Vakken en rooster</p>
+            <div class="mt-10 pl-4 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Web Development
+                </h3>
+                <p class="inline">
+                  Leer dynamische websites bouwen met HTML, CSS en JavaScript.
+                </p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Native Development
+                </h3>
+                <p class="inline">Begin met Python en evolueer naar het bouwen van Windows-apps in C# en XAML voor een
+                  diepgaande ervaring in native app-ontwikkeling.</p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Praktijklessen
+                </h3>
+                <p class="inline">Versterk theoretische kennis door samen met medestudenten in groepjes realistische
+                  projecten en casestudies aan te pakken.</p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Praktijk Ondersteuning
+                </h3>
+                <p class="inline">Ontdek handige tools zoals Git en heb de mogelijkheid om extra vragen te stellen over
+                  de praktijkopdrachten voor een soepele leerervaring.</p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Generieke vakken
+                </h3>
+                <p class="inline">De generieke vakken zoals Nederlands, Engels en rekenen om verder te leren voor het
+                  centraal examen.</p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Burgerschap
+                </h3>
+                <p class="inline">
+                  Burgerschap leer je hierbij de basis van burgerschap.
+                </p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Algoritme (ALGO)
+                </h3>
+                <p class="inline">
+                  Algoritme is een vak waarbij je leert hoe algoritmes werken.
+                </p>
+              </div>
+              <div class="relative">
+                <h3 class="inline font-semibold text-gray-900">
+                  Digitale Vaardigheden (DIV)
+                </h3>
+                <p class="inline">
+                  Digitale vaardigheden is een keuzevak waar je de basis van office, het internet en je computer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/images/rooster-eerste-leerjaar.png" alt="Afbeelding rooster eerste leerjaar"
+          class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 self-center"
+          width="2432" height="1442">
+      </div>
+    </div>
+  </div>
+
+  <!-- Docenten  -->
+  <div id="docenten" class="bg-white py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Een paar docenten</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-600">Hiernaast kan je een aantal docenten zien die in het eerste jaar
+          les geven</p>
+      </div>
+      <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <!-- Elton Boekhoudt -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/elton-boekhoudt.jpg" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Elton Boekhoudt</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent WEB/TBZ</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Ine Vermeer -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/ine-vermeer.jfif" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Ine Vermeer</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent WEB/SLB</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Bart Roos -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/bart-roos.jfif" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Bart Roos</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent NATIVE/WEB/SLB/PRA</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Wicher Hulzenbosch -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/wicher-hulzenbosch.png" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Wicher Hulzenbosch</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent NATIVE/PRA</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Michel Meeuwesen -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/michel-meeuwesen.png" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Michel Meeuwesen</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent PRA/REK/NATIVE</p>
+            </div>
+          </div>
+        </li>
+
+        <!-- Steven van Rosendaal -->
+        <li>
+          <div class="flex items-center gap-x-6">
+            <img class="h-16 w-16 rounded-full" src="./assets/images/docenten/steven-van-rosendaal.png" alt="">
+            <div>
+              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Steven van Rosendaal</h3>
+              <p class="text-sm font-semibold leading-6 text-indigo-600">Docent PRO/SLB</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- School Traject -->
+  <div id="traject" class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">School Traject</p>
+            <p class="mt-6 text-2xl font-bold tracking-tight text-gray-900">Versnellings traject</p>
+            <p class="mt-1 text-lg leading-8 text-gray-600">
+              Met een versnellingstraject kun je de opleiding in 3 jaar in plaats van 4 jaar voltooien, gebaseerd op
+              prestaties tijdens praktijkopdrachten en toetsmomenten. De beslissing wordt genomen door leraren en
+              jouzelf in februari van je eerste jaar. Bij deze optie krijg je 1 extra vak en meer wekelijkse uren.</p>
+          </div>
+        </div>
+        <img src="./assets/images/school-traject.png" alt="Afbeelding opbouw school traject"
+          class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+          width="2432" height="1442">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
